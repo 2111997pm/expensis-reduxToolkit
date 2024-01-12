@@ -11,7 +11,7 @@ const ForgetPassForm = (props) => {
         const enteredEmail = emailInputRef.current.value
 
         try {
-            const response = await fetch("https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key=AIzaSyDL8noeCp6M8xxaaGThaZU-M-fs5-MP0Ok",{
+            const response = await fetch("https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key=AIzaSyAa2vT0TT6TfzR7WxkHOf73-sdLg5tbh8Q",{
                 method : "POST",
                 body : JSON.stringify({
                     requestType	: "PASSWORD_RESET",

@@ -20,7 +20,7 @@ const Signup = (props) => {
         } else {
             try {
                 const response = await fetch(
-                    "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDL8noeCp6M8xxaaGThaZU-M-fs5-MP0Ok",
+                    "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAa2vT0TT6TfzR7WxkHOf73-sdLg5tbh8Q",
                     {
                         method: "POST",
                         body: JSON.stringify({

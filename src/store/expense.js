@@ -27,6 +27,7 @@ const expenseSlice = createSlice({
         setEditItemsNull(state) {
             state.editItems = null;
         },
+
         setItemsEmpty(state) {
             state.items = [];
         }
@@ -34,4 +35,5 @@ const expenseSlice = createSlice({
 })
 
 export const expenseActions = expenseSlice.actions;
+
 export default expenseSlice.reducer;
